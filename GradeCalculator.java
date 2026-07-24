@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class GradeCalculator {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-d
+
         System.out.print("Enter your score : ");
         int grade = sc.nextInt();
         
