@@ -5,10 +5,10 @@ public class Centimeters {
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter cm : ");
-        Double meters = sc.nextDouble();
+        int meters = sc.nextInt();
 
-        Double result = meters / 100;
+        Double result = (double) meters / 100;
         
-        System.out.printf("%.2f cm equals %.2f meters" , meters , result);
+        System.out.printf("%d cm equals %.2f meters" , meters , result);
     }
 }
