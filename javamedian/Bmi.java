@@ -1,4 +1,3 @@
-package javamedian;
 import java.util.Scanner;
 
 
